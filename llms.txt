@@ -1,0 +1,21 @@
+# CLI Cloud
+
+> Deploy and operate services through the browser, clicloud CLI, MCP, SDK, or direct HTTP API.
+
+Read [the operating contract](https://app.clicloud.co/skill.md) before acting. This index is a discovery map, not an access grant or capability claim. Authenticated bootstrap and capability readback remain current truth.
+
+## Start here
+
+- [Operating contract](https://app.clicloud.co/skill.md): Procedural contract for deploy, operate, cost, recovery, and destroy.
+- [CLI Cloud app](https://app.clicloud.co/): Browser entry point for GitHub sign-in and the deploy lifecycle.
+- [clicloud CLI](https://www.npmjs.com/package/@clicloud/cli): install @clicloud/cli, login once, then deploy and operate.
+- Hosted MCP: POST https://app.clicloud.co/mcp - Streamable HTTP MCP endpoint; Bearer credential required.
+- [Agent-readable sitemap](https://app.clicloud.co/sitemap.md): Markdown sitemap for the public discovery surfaces.
+
+## Direct API
+
+- [AI gateway OpenAPI](https://app.clicloud.co/v1/openapi.json): Provider-neutral OpenAPI 3.1 contract for the AI gateway.
+- [Deploy API OpenAPI](https://app.clicloud.co/api/public/openapi/source-deployments.json): OpenAPI 3.1 contract for source deployment and the deploy lifecycle.
+- Authenticated capabilities: GET or POST https://app.clicloud.co/backend/api/public/capabilities - Session-bound capability readback for the current workspace.
+- Workspace bootstrap: POST https://app.clicloud.co/backend/api/public/bootstrap - Authenticated session and workspace bootstrap.
+- Connect config: GET or POST https://app.clicloud.co/backend/api/public/connect-config - Local MCP setup projection for Claude Code, Cursor, and VS Code.
