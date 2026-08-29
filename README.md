@@ -21,3 +21,7 @@ Requires Node 22+.
 - App: https://app.clicloud.co
 - Status: https://status.clicloud.co
 - Agent skill: https://app.clicloud.co/skill.md
+
+## License
+
+The documentation and agent-discovery files in this repository are licensed under [CC BY 4.0](./LICENSE).
